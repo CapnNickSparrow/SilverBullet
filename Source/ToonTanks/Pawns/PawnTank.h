@@ -31,14 +31,18 @@ private:
 	APlayerController* PlayerControllerRef;
 	bool bIsPlayerAlive = true;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))	
+	float MoveValue = 0;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Movement", meta = (AllowPrivateAccess = "true"))	
+	float RotateValue = 0;
+
 	UPROPERTY(EditAnywhere, Category = "Audio")	
 	USoundBase* Wheels;
 
 	void CalculateMoveInput(float Value);
+	/*void RotateOwnTurret(float HL);*/
 	void CalculateRotateInput(float Value);
 
-	void Move();
-	void Rotate();
 
 public:
 

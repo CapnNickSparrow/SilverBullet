@@ -6,7 +6,7 @@
 #include "GameFramework/Pawn.h"
 #include "PawnBase.generated.h"
 
-class UCapsuleComponent;
+class UBoxComponent;
 class AProjectileBase;
 class UHealthComponent;
 
@@ -17,8 +17,6 @@ class TOONTANKS_API APawnBase : public APawn
 
 private: 
 	// COMPONENTS
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
-	UCapsuleComponent* CapsuleComp;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* BaseMesh;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
@@ -40,6 +38,10 @@ private:
 	TSubclassOf<UCameraShake> DeathShake;
 
 public:
+    
+    UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
+   	UBoxComponent* CapsuleComp;
+    	
 	// Sets default values for this pawn's properties
 	APawnBase();
 	virtual void HandleDestruction();
