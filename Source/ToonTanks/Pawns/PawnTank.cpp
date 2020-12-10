@@ -74,7 +74,6 @@ void APawnTank::CalculateMoveInput(float Value)
     {
         MoveValue = Value;
     }
-    UE_LOG(LogTemp, Warning, TEXT("%f"), MoveValue);
 }
 
 void APawnTank::CalculateRotateInput(float Value) 
@@ -83,12 +82,4 @@ void APawnTank::CalculateRotateInput(float Value)
     {
         RotateValue = Value;
     }
-    UE_LOG(LogTemp, Warning, TEXT("%f"), RotateValue);
 }
-
-/*
-void APawnTank::RotateOwnTurret(HL)
-{
-    
-}
-*/

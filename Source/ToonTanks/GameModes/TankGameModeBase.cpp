@@ -35,6 +35,10 @@ void ATankGameModeBase::ActorDied(AActor *DeadActor)
             HandleGameOver(true);
         }
     }
+    else
+    {
+        DeadActor->Destroy();
+    }
 }
 
 void ATankGameModeBase::HandleGameStart() 

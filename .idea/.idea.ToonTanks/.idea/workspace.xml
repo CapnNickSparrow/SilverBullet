@@ -8,15 +8,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0f31a9b9-d913-492f-a260-8796d96a2e40" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Meshes/BigB.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Meshes/BigB.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/NewPhysicalMaterial.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/NewPhysicalMaterial.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_ProjectileBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_ProjectileBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultGame.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Assets/NewPhysicalMaterial.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank_NEW.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank_NEW.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret_NEW.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret_NEW.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/Main_BuiltData.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main_BuiltData.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/GameModes/TankGameModeBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/GameModes/TankGameModeBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ToonTanks.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ToonTanks.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +33,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.h" />
-      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.h" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.h" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnBase.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks.Target.cs" />
+      <option value="$PROJECT_DIR$/Source/ToonTanksEditor.Target.cs" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Actors/ProjectileBase.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/Components/HealthComponent.cpp" />
       <option value="$PROJECT_DIR$/Source/ToonTanks/Pawns/PawnTank.cpp" />
+      <option value="$PROJECT_DIR$/Source/ToonTanks/GameModes/TankGameModeBase.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1k6r3m8eCf0leXtIKU6j29wwXVu" />
@@ -186,6 +198,8 @@
       <workItem from="1606936595391" duration="122000" />
       <workItem from="1607439836500" duration="1191000" />
       <workItem from="1607461066927" duration="662000" />
+      <workItem from="1607521523581" duration="61000" />
+      <workItem from="1607522325185" duration="4269000" />
     </task>
     <servers />
   </component>
